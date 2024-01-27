@@ -17,7 +17,7 @@ int main() {
 
     auto start = std::chrono::high_resolution_clock::now();
 
-    int numThreads = 1;
+    int numThreads = 8;
 
     int N = 100'000'001;
     vector<bool> prime(N);
